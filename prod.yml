@@ -4,9 +4,8 @@ services:
     extends:
       file: common.yml
       service: dockerapp
-    build: .
+    image: zvyagintsevkr/dockerapp
 
   redis:
-    extends:
       file: common.yml
       service: redis
